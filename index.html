@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Misspoken</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="Misspoken">
+      <script src="../cdn-cgi/apps/head/vHhEfJKWRnKvumizYVhoYVRu6Ic.js"></script>
+      <link rel="shortcut icon" href type="image/png">
+      <link rel="icon", type="image/png", href="https://cdn.discordapp.com/attachments/835212451887841361/842076968241594448/Untitled_42.png">
+      <meta property="og:image:url" content="https://cdn.discordapp.com/attachments/835212451887841361/842076968241594448/Untitled_42.png">
+      <meta property="og:image:secure_url" content="https://cdn.discordapp.com/attachments/835212451887841361/842076968241594448/Untitled_42.png">
+      <meta property="og:title" content="Misspoken">
+      <meta property="og:description" content="Misspoken's offical website.">
+      <meta property="og:image" content="../ss/9zy.png">
+      <meta name="theme-color" content="#36393E">
+      <link rel="stylesheet" href="assets/main.css">
+   </head>
+   <body>
+      <main>
+         <script>
+            function audioPlay() {
+                var audio = document.getElementById("audio");
+                audio.volume = 0.4;
+                audio.play()
+            }
+            function videoPlay() {
+                var video = document.getElementById("video");
+                video.play()
+            }
+         </script>
+         <input type="checkbox" autocomplete="off" id="overlay-toggle">
+         <div class="overlay fullscreen">
+            <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+            <span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+            <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span>
+            </label>
+         </div>
+         <audio loop preload="auto" id="audio">
+            <source src="assets/Misspoken_UK.mp3" type="audio/mp3">
+         </audio>
+         <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+            <source src="assets/Misspoken_BG.mp4" type="video/mp4">
+         </video>
+         <section class="fullscreen text-content">
+            <h1 style="font-family: mono; text-shadow: 0 0 0.40em #cfcfcf;">Misspoken</h1>
+            <p style="font-family: mono; text-shadow: 0 0 0.50em #cfcfcf;">developer & producer</p>
+            <a href="https://discord.gg/YDs64Ba8wK" style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #c0ffb0;">discord</a>
+            <a href="https://github.com/misspoken69" target="_blank" rel="noreferrer noopener" style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #c0ffb0;">github</a>
+            <a href="https://instagram.com/misspoken69 target="_blank" rel="noreferrer noopener" style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #c0ffb0;">instagram</a>
+         </section>
+      </main>
+   </body>
+</html>
